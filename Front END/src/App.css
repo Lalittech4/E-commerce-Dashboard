@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+
+    display: inline-block;
+    width: 100vw;
+    align-items: center;
+    padding-top: 3vh;
+    padding-left: 10vw;
+    background-color: rgb(95, 56, 165);
+    
+    height: 10vh;
+    
+}
+
+.heading h1 {
+    position: absolute;
+    float: left;
+    padding: 15px;
+    align-items: center;
+    /* font-size: larger; */
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+
+.navbar li {
+    display: inline-block;
+    /* padding: 15px; */
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3vh;
+    
+}
+
+.navbar li a {
+    /* padding: 10px; */
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* -------------------------------footer desging---------->>>>>>>>>>>>>>> */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(95, 56, 165);
+    padding: 10px;
+}
+
+.footer h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* -----------------------Signup page designing----------------- */
+
+.headingsignup h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(95, 56, 165);
+    margin-top: 10vh;
+
+}
+
+.inputsignup {
+
+    /* display: flex; */
+    margin-top: 2vh;
+    margin-left: 35vw;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid rgb(95, 56, 165);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+/* ------------------------SIGNUP BUTTON DESIGNING-------------- */
+
+.btnsignup {
+    padding: 10px;
+    width: 30%;
+    margin-left: 35vw;
+    margin-top: 3vh;
+    color: white;
+    background-color: rgb(95, 56, 165);
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.btnsignup:hover {
+    background-color: rgb(117, 79, 187);
+}
+
+/* ---------------------login----------->>>>>>>>>>>..>>>>>>>>>>>> */
+
+.nav-right {
+    text-align: right;
+}
+
+.headinglogin h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(95, 56, 165);
+    margin-top: 10vh;
+}
+
+.invalid-input {
+    display: block;
+    margin-left: 35vw;
+    margin-top: 2vh;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* -------------------Product Table------------>>>>>>>>>>>>> */
+.product-list ul li {
+    display: inline-block;
+    /* margin-top: 2vh; */
+    padding: 10px;
+    width: 10%;
+    border: 1px solid rgb(95, 56, 165);
+    cursor: pointer;
+
+}
+
+.product-list h2 {
+    margin-bottom: -2vh;
+}
+
+.product-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(95, 56, 165);
+    margin-top: 10vh;
+    /* margin-bottom: 2vh; */
+
+}
+
+.product-list ul {
+    margin-top: 0;
+}
+
+/* ---------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>DELETE BUTTON */
+
+.deletebtn {
+    width: 50%;
+    color: rgb(95, 56, 165);
+    border: none;
+    cursor: pointer;
+}
+
+.updatelink a {
+    width: 80%;
+    color: rgb(95, 56, 165);
+    background-color: #e7e5e5;
+    /* color: white;
+    background-color: rgb(95, 56, 165); */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 10px;
+}
+
+/* ----------------->>>>>>>>>>>>>>>>>>>>>>>>>>SEARCHINPUT>>>>>>>>>>>>>>>>>>>. */
+
+.searchinput {
+    color: rgb(95, 56, 165);
+    width: 50vw;
+    height: 4vh;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid rgb(95, 56, 165);
+    cursor: pointer;
+}
+
+.img {
+    width: 5px;
+    padding: 20px;
+    height: 10px;
+}
